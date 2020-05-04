@@ -2,6 +2,7 @@
 
 language: R
 cache: packages
+os: windows
 warnings_are_errors: false
 before_install:
   - cd aif360/aif360-r
