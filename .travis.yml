@@ -48,5 +48,5 @@ matrix:
           - pip install BlackBoxAuditing -q
           - pip install tensorflow==1.15.0 -q
           - pip install pandas -q
-      script:
+      before_script:
           - R CMD INSTALL .
