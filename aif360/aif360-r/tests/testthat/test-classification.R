@@ -1,7 +1,10 @@
 context("Comprehensive Test for Classification Metric")
 
+source("utils.R")
 
 test_that("running dataset test", {
+
+  skip_if_no_py_modules()
 
   act <- aif360::aif_dataset(
     data_path = system.file("extdata", "actual_data.csv", package="aif360"),

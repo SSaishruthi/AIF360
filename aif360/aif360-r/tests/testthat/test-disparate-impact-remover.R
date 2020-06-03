@@ -1,6 +1,6 @@
 context("Comprehensive Test for Disparate Impact Remover Algorithm")
-
-
+source("utils.R")
+skip_if_no_py_modules()
 test_that("running dataset test", {
   dd <- aif360::aif_dataset(
     data_path = system.file("extdata", "data.csv", package="aif360"),

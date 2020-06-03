@@ -1,7 +1,9 @@
 context("Comprehensive Test for Binary Label Dataset Metric")
-
+source("utils.R")
 
 test_that("running dataset test", {
+
+  skip_if_no_py_modules()
 
   dd <- aif360::aif_dataset(
     data_path = system.file("extdata", "data.csv", package="aif360"),

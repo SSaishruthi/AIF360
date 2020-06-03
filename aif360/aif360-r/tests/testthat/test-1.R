@@ -1,11 +1,6 @@
-# helper function to skip tests if we don't have the 'foo' module
-skip_if_no_py_modules <- function() {
-  have_scipy <- reticulate::py_module_available("aif360")
-  if (!have_scipy)
-    skip("AIF360 not available for testing")
-}
+source("utils.R")
 
-# then call this function from all of your tests
+# load aif360 functions
 test_that("Things work as expected", {
   skip_if_no_py_modules()
   # load aif library
