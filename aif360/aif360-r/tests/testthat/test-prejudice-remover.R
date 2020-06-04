@@ -1,6 +1,6 @@
 context("Comprehensive Test for Prejudice Remover Algorithm")
-source("utils.R")
-skip_if_no_py_modules()
+
+skip_on_cran()
 test_that("running prejudice remover test", {
   dd <- aif360::aif_dataset(
     data_path = system.file("extdata", "data.csv", package="aif360"),

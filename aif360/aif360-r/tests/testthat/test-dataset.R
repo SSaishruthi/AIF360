@@ -1,10 +1,8 @@
 context("Comprehensive Test for Binary Dataset Creation")
 
-source("utils.R")
-
 test_that("running dataset test", {
 
-  skip_if_no_py_modules()
+  skip_on_cran()
 
   dd <- aif360::aif_dataset(
     data_path = system.file("extdata", "data.csv", package="aif360"),
