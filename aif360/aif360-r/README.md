@@ -59,8 +59,10 @@ formatted_dataset <- aif360::aif_dataset(data_path = data,
 ## Contributing
 
 If you’d like to contribute to the development of aif360, please read
-[these guidelines](CONTRIBUTING.md).
+[these
+guidelines](https://github.com/IBM/AIF360/blob/master/aif360/aif360-r/CONTRIBUTING.md).
 
 Please note that the aif360 project is released with a [Contributor Code
-of Conduct](CODEOFCONDUCT.md). By contributing to this project, you
-agree to abide by its terms.
+of
+Conduct](https://github.com/IBM/AIF360/blob/master/aif360/aif360-r/CODEOFCONDUCT.md).
+By contributing to this project, you agree to abide by its terms.
