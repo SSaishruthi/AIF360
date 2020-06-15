@@ -4,7 +4,7 @@
 #' @param sensitive_attribute Single protected attribute with which to do repair.
 #' @usage disparate_impact_remover(repair_level, sensitive_attribute)
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' # An example using the Adult Dataset
 #' load_aif360_lib()
 #' ad <- adult_dataset()

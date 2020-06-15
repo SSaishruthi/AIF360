@@ -14,7 +14,7 @@
 #' @param metric_ub Upper bound of constraint on the metric value
 #' @param metric_lb Lower bound of constraint on the metric value
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' # Example with Adult Dataset
 #' load_aif360_lib()
 #' ad <- adult_dataset()
