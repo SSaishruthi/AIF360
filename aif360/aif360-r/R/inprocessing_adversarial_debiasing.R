@@ -11,7 +11,7 @@
 #' @param classifier_num_hidden_units number of hidden units in the classifier model.
 #' @param debias learn a classifier with or without debiasing.
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' load_aif360_lib()
 #' ad <- adult_dataset()
 #' p <- list("race", 1)

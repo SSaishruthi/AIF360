@@ -8,7 +8,7 @@
 #' @usage
 #' dataset_metric(data, privileged_groups, unprivileged_groups)
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' load_aif360_lib()
 #' data <- data.frame("feat" = c(0,0,1,1,1,1,0,1,1,0), "label" = c(1,0,0,1,0,0,1,0,1,1))
 #' # Create aif compatible dataset

@@ -4,7 +4,7 @@
 #' @param privileged_groups  a list with two values: the column of the protected class and the value indicating representation for privileged group
 #' @usage reweighing(unprivileged_groups, privileged_groups)
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' # An example using the Adult Dataset
 #' load_aif360_lib()
 #' ad <- adult_dataset()

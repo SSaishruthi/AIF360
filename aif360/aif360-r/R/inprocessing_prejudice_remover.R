@@ -5,7 +5,7 @@
 #' @param class_attr label name
 #' @usage prejudice_remover(eta=1.0, sensitive_attr='',class_attr='')
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' # An example using the Adult Dataset
 #' load_aif360_lib()
 #' ad <- adult_dataset()
