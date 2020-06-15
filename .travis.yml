@@ -44,7 +44,7 @@ matrix:
           - R -q -e "install.packages('rstudioapi')"
           - R -q -e "install.packages('testthat')"
           - pip install aif360 -q
-          - pip install numba==0.49.1 -q
+          - pip install numba==0.48.0 -q
           - pip install BlackBoxAuditing -q
           - pip install tensorflow==1.15.0 -q
           - pip install pandas -q
