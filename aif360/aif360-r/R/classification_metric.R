@@ -9,7 +9,6 @@
 #' classification_metric(dataset, classified_dataset, unprivileged_groups, privileged_groups)
 #' @examples
 #' \donttest{
-#' load_aif360_lib()
 #' # Input dataset
 #' data <- data.frame("feat" = c(0,0,1,1,1,1,0,1,1,0), "label" = c(1,0,0,1,0,0,1,0,1,1))
 #' # Create aif compatible input dataset
