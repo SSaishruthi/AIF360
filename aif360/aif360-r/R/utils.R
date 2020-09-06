@@ -39,7 +39,7 @@ install_aif360 <- function(method = c("auto", "virtualenv", "conda"),
   method <- match.arg(method)
 
   reticulate::py_install(
-    packages       = c("aif360", "numba", "BlackBoxAuditing", "tensorflow==1.15", "pandas"),
+    packages       = c("aif360", "numba=0.49.1", "BlackBoxAuditing", "tensorflow==1.15", "pandas"),
     envname        = envname,
     method         = method,
     conda          = conda,

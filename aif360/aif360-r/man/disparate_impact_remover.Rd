@@ -15,7 +15,7 @@ disparate_impact_remover(repair_level, sensitive_attribute)
 Disparate impact remover is a preprocessing technique that edits feature values increase group fairness while preserving rank-ordering within groups
 }
 \examples{
-\dontrun{
+\donttest{
 # An example using the Adult Dataset
 load_aif360_lib()
 ad <- adult_dataset()

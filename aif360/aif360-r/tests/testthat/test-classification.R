@@ -1,7 +1,8 @@
 context("Comprehensive Test for Classification Metric")
 
-
 test_that("running dataset test", {
+
+  skip_on_cran()
 
   act <- aif360::aif_dataset(
     data_path = system.file("extdata", "actual_data.csv", package="aif360"),

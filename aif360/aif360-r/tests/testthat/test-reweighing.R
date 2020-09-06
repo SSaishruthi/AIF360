@@ -1,6 +1,6 @@
 context("Comprehensive Test for Preprocessing Reweighing Algorithm")
 
-
+skip_on_cran()
 test_that("running dataset test", {
   dd <- aif360::aif_dataset(
     data_path = system.file("extdata", "data.csv", package="aif360"),

@@ -6,7 +6,7 @@
 #' @usage
 #' binary_label_dataset_metric(data, privileged_groups, unprivileged_groups)
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' load_aif360_lib()
 #' # Load the adult dataset
 #' adult_dataset <- adult_dataset()

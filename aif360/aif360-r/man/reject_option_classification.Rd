@@ -42,7 +42,7 @@ priviliged groups in a confidence band around the decision boundary with
 the highest uncertainty.
 }
 \examples{
-\dontrun{
+\donttest{
 # Example with Adult Dataset
 load_aif360_lib()
 ad <- adult_dataset()

@@ -1,5 +1,6 @@
 context("Comprehensive Test for Disparate Impact Remover Algorithm")
 
+skip_on_cran()
 
 test_that("running dataset test", {
   dd <- aif360::aif_dataset(

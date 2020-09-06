@@ -17,7 +17,7 @@ prejudice_remover(eta=1.0, sensitive_attr='',class_attr='')
 Prejudice remover is an in-processing technique that adds a discrimination-aware regularization term to the learning objective
 }
 \examples{
-\dontrun{
+\donttest{
 # An example using the Adult Dataset
 load_aif360_lib()
 ad <- adult_dataset()

@@ -11,7 +11,6 @@ knitr::opts_chunk$set(
   fig.path = "man/figures/README-",
   out.width = "100%"
 )
-library(aif360)
 ```
 
 # AI Fairness 360 (AIF360) R Package 
@@ -71,8 +70,8 @@ formatted_dataset <- aif360::aif_dataset(data_path = data,
 
 ## Contributing
 
-If you'd like to contribute to the development of aif360, please read [these guidelines](CONTRIBUTING.md).
+If you'd like to contribute to the development of aif360, please read [these guidelines](https://github.com/IBM/AIF360/blob/master/aif360/aif360-r/CONTRIBUTING.md).
 
-Please note that the aif360 project is released with a [Contributor Code of Conduct](CODEOFCONDUCT.md). By contributing to this project, you agree to abide by its terms.
+Please note that the aif360 project is released with a [Contributor Code of Conduct](https://github.com/IBM/AIF360/blob/master/aif360/aif360-r/CODEOFCONDUCT.md). By contributing to this project, you agree to abide by its terms.
 
 

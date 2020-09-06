@@ -7,14 +7,14 @@ Authors@R: c(
     person("Stacey", "Ronaghan", email = "ronaghan@us.ibm.com", role = "aut"),
     person("Saishruthi", "Swaminathan", email = "saishruthi.tn@ibm.com", 
     role = c("aut", "cre")))
-Description: The AI Fairness 360 toolkit is an open-source library to help detect 
+Description: The 'AI Fairness 360' <https://aif360.mybluemix.net/> toolkit is an open-source library to help detect 
     and mitigate bias in machine learning models. The AI Fairness 360 R package includes 
     a comprehensive set of metrics for datasets and models to test for biases, 
     explanations for these metrics, and algorithms to mitigate bias in datasets and models.
 License: Apache License (>= 2.0)
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/IBM/AIF360
+URL: https://github.com/IBM/AIF360/tree/master/aif360/aif360-r
 BugReports: https://github.com/IBM/AIF360/issues
 Imports: 
     reticulate,

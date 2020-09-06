@@ -42,7 +42,7 @@ adversarial_debiasing(
 Adversarial debiasing is an in-processing technique that learns a classifier to maximize prediction accuracy and simultaneously reduce an adversary's ability to determine the protected attribute from the predictions
 }
 \examples{
-\dontrun{
+\donttest{
 load_aif360_lib()
 ad <- adult_dataset()
 p <- list("race", 1)

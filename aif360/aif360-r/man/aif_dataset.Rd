@@ -28,7 +28,7 @@ aif_dataset(data_path,  favor_label, unfavor_label,
 Function to create AIF compatible dataset.
 }
 \examples{
-\dontrun{
+\donttest{
 load_aif360_lib()
 # Input dataset
 data <- data.frame("feat" = c(0,0,1,1,1,1,0,1,1,0), "label" = c(1,0,0,1,0,0,1,0,1,1))

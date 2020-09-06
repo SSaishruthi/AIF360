@@ -1,7 +1,8 @@
 context("Comprehensive Test for Inprocessing Adversarial DebiasingAlgorithm")
-
-
 test_that("running dataset test", {
+
+  skip_on_cran()
+
   dd <- aif360::aif_dataset(
     data_path = system.file("extdata", "data.csv", package="aif360"),
     favor_label=0,

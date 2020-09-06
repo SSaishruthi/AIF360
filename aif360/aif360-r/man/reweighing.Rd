@@ -15,7 +15,7 @@ reweighing(unprivileged_groups, privileged_groups)
 Reweighing is a preprocessing technique that weights the examples in each (group, label) combination differently to ensure fairness before classification
 }
 \examples{
-\dontrun{
+\donttest{
 # An example using the Adult Dataset
 load_aif360_lib()
 ad <- adult_dataset()
